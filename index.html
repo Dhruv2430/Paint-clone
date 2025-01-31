@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="left-container">
+           <h3>Shapes</h3>
+            <ul>
+                <li><img src="svg/rectangle.svg" alt="" id="Rectangle" class="tool">Rectangle</li>
+                <li><img src="svg/circle.svg" alt="" id="Circle" class="tool">Circle</li>
+                <li><img src="svg/triangle.svg" alt="" id="Triangle" class="tool">Triangle</li>
+                <li>
+                    <input type="checkbox" name="option" id="option" class="fill-color">
+                    <label for="option">Fill color</label>  
+                 </li>
+            </ul>
+            <h3>Options</h3>
+            <ul>
+                <li><img src="svg/brush.svg" alt="" id="Brush" class="tool">Brush</li>
+                <li><img src="svg/eraser.svg" alt="" id="Eraser" class="tool">Eraser</li>
+                <li><input type="range" name="" id=""></li>
+            </ul>
+            <h3>Color</h3>
+            <input type="color">
+            <button>Clear Canvas</button>
+            <button>Save as Image</button>
+        </div>
+        <div class="right-container">
+           <canvas>
+
+           </canvas>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
